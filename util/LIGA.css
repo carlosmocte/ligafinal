@@ -1,0 +1,184 @@
+/* Estilos globales */
+* {
+    font-family:Tahoma;
+    font-size:14px;
+}
+/* $.liga('mensaje', ...) */
+.msj1, .msj2 {
+    font-size:95%;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    text-align:center;
+    font-weight:bold;
+    margin:0px auto;
+    width:350px;
+    max-height:150px;
+    max-width:80%;
+    overflow:auto;
+    padding:7px;
+    vertical-align:middle;
+}
+.msj1 {
+    background-color:#354072    ;
+    color:#FFFFFF;
+    border:1px solid #182560;
+}
+.msj2 {
+    background-color:#ffd779;
+    color:#b7351e;
+    border:1px solid #b7351e;
+}
+.cerrarMsj {
+    font-size:75%;
+    font-weight:bold;
+    background-color:#CF3800;
+    border-color:#CF3800;
+    color:white;
+    padding:1px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    float:right;
+    display:block;
+}
+.cerrarMsj:hover {
+    cursor:pointer;
+}
+/* Errores en Formularios */
+span.error {
+    font-size:102%px;
+    font-weight:bold;
+    color:#b7351e;
+    border:1px solid #2A2942;
+    background-color: #5870BC;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    margin-left: 5px;
+    padding: 3px;
+    position:absolute;
+}
+/* $.liga('alerta', ...) */
+.titAlerta {
+    z-index:60;
+    background-color:#1E6289;
+    color:#FFFFFF;
+    font-size:108%;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    text-align:center;
+    font-weight:bold;
+    margin:0px auto;
+    margin-bottom:5px;
+    padding:5px;
+    border:thin outset;
+}
+.alerta {
+    display:none;
+    position:fixed;
+    z-index:50;
+    background-color:#88B5C1;
+    color:#010003;
+    font-size:14px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    text-align:center;
+    font-weight:bold;
+    margin:0px auto;
+    max-width:90%;
+    min-width:400px;
+    overflow:auto;
+    max-height:90%;
+    padding:3px;
+    border:medium outset;
+}
+.cerrarMsjAlerta {
+    margin-top:10px;
+    font-size:103%;
+    font-weight:bold;
+}
+.cerrarMsjAlerta:hover {
+    cursor:pointer;
+}
+/* Capa que bloquea los elementos (se puede cambiar el color) */
+.bloquea {
+    background-color:#c0c0c0;
+}
+/* Formularios por defecto*/
+fieldset {
+    background-color: #727CB5;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+/*Formularios Registro y Modificacion*/
+fieldset legend {
+    background-color:#354072;
+    color:#FFFFFF;
+    padding:3px;
+    border:2px outset #000000;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    font-weight:bold;
+    font-size:103%;
+}
+fieldset div label {
+    font-size:101%;
+    height:18px;
+    margin-top:5px;
+    font-weight:bold;
+    float:left;
+}
+input,select {
+    font-family:Tahoma;
+    padding:2px;
+}
+input[type=submit], input[type=reset] {
+    padding:5px 10px;
+    font-weight:bold;
+}
+input[type=submit] {
+    color:#00B75B;
+}
+input[type=reset] {
+    color:#FF0000;
+}
+/* Para uso en otros botones */
+.btn1, .btn2 {
+    padding:5px 10px;
+    font-weight:bold;
+}
+.btn1 {
+    color:#03B24C;
+}
+.btn2 {
+    color:#FF0000;
+}
+/* Tablas */
+table {
+    border:1px solid gray;
+    border-collapse:collapse;
+    background-color:#B2B2B2;
+}
+th {
+    border:1px solid gray;
+    background-color:#354072;
+    color:#FFFFFF;
+    padding:5px;
+}
+td {
+    border:1px solid gray;
+}
+table caption {
+    font-weight:bold;
+}
+tr:nth-child(2n+1) {
+    background-color:#B2B2B2;
+}
+tr:hover {
+    background-color:#FFFFFF;
+}
